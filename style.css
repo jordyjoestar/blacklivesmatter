@@ -1,0 +1,209 @@
+/* CSS files add styling rules to your content */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a9a9a9; 
+}
+
+body {
+    background-image: url('https://static.wixstatic.com/media/25c546_5c0594a8844a44ceab21f9ffd93df905~mv2.gif');
+    background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+    --border: 5px solid black;
+  padding: 25px;
+  background-size: cover;
+    --background-size: 1000px 1000px;
+   background-color: #27354a;
+  font-family: 'Chilanka', cursive;
+  margin: 2em;
+}
+
+r {
+  border-radius: 8px;
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-family: 'Staatliches', cursive;
+  font-style: bold;
+  font-size: 40px;
+    background-color: coral;
+  text-shadow: 3px 3px #000;
+  color: #ffffff;
+}
+
+v {
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+font-family: 'Alatsi', sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 1px 1px #000;
+      background-color: #1d1f24;
+      background: rgba(29, 31, 36, 0.5);
+}
+
+x {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-family: 'Staatliches', cursive;
+  font-style: bold;
+  font-size: 40px;
+    background-color: coral;
+  text-shadow: 2px 2px #000;
+  color: #ffffff;
+}
+l{
+    --border-radius: 8px;
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-family: 'Staatliches', cursive;
+  font-style: bold;
+  font-size: 40px;
+    background-color: coral;
+  text-shadow: 2px 2px #000;
+  color: #ffffff;
+}
+f {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-family: 'Staatliches', cursive;
+  font-style: bold;
+  font-size: 40px;
+    background-color: coral;
+    text-shadow: 2px 2px #000;
+  color: #ffffff;
+}
+
+button {
+    border-radius: 29px;
+	outline: none;
+  background-color: #3c5969;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 29px;
+	outline: none;
+  background-color: #3c5969;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+    a { 
+      text-decoration: none; 
+      color: #ffffff;
+}
+
+h1 {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-style: bold;
+  color: #ffffff;
+      text-shadow: 2px 2px #0F171F;
+}
+
+hr {
+    clear: both;
+    visibility: hidden;
+}
+h2 {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+font-family: 'PT Sans', sans-serif;
+  font-style: bold;
+  color: white;
+      text-shadow: 2px 2px black;
+}
+
+h3 {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-style: bold;
+  color: #373fff;
+      text-shadow: 1px 1px #ffffff;
+}
+h4 {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-style: bold;
+  color: #373fff;
+      text-shadow: 1px 1px #ffffff;
+}
+h5 {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-style: bold;
+  color: #373fff;
+      text-shadow: 1px 1px #ffffff;
+}
+h6 {
+          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+  font-style: bold;
+  color: #373fff;
+      text-shadow: 1px 1px #ffffff;
+}
