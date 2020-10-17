@@ -1,5 +1,30 @@
 /* CSS files add styling rules to your content */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+#pointer-dot {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 2.5px solid white;
+    position: fixed;
+    border-radius: 4px;
+    z-index: 1;
+    pointer-events: none;
+    transition: border-color 0.5s;
+}
+
+#pointer-ring {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    padding: 15px;
+    border: 2px solid #750c7e;
+    position: fixed;
+    border-radius: 100px;
+    z-index: 2;
+    pointer-events: none;
+}
 ::-moz-selection { /* Code for Firefox */
   background: red;
 }
@@ -27,6 +52,10 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #a9a9a9; 
+}
+
+html {
+    cursor: none !important;
 }
 
 body {
@@ -139,6 +168,7 @@ button {
 }
 
     a { 
+	        cursor: none !important;
       text-decoration: none; 
       color: #ffffff;
 }
@@ -213,7 +243,6 @@ h2::selection {
 }
 
 .circle {
-		cursor: none;
 	position: absolute;
   border: solid 1px #ccc;
 	width: 60px; 
