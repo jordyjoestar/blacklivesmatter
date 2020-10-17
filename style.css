@@ -42,11 +42,6 @@ body {
 
 r {
   border-radius: 8px;
-          -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
   font-family: 'Staatliches', cursive;
   font-style: bold;
   font-size: 40px;
