@@ -30,10 +30,6 @@
 }
 
 body {
-		position: relative;
-	height: 100%; 
-	width : 100%;  
-	margin: 0;
 			          -webkit-user-select: none;
         -webkit-touch-callout: none;
         -moz-user-select: none;
