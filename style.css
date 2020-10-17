@@ -1,5 +1,5 @@
 /* CSS files add styling rules to your content */
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
 ::-moz-selection { /* Code for Firefox */
   background: red;
 }
@@ -30,6 +30,10 @@
 }
 
 body {
+		position: relative;
+	height: 100%; 
+	width : 100%;  
+	margin: 0;
 			          -webkit-user-select: none;
         -webkit-touch-callout: none;
         -moz-user-select: none;
@@ -206,4 +210,12 @@ p {
 
 h2::selection {
   text-shadow: none;
+}
+
+.circle {
+	position: absolute;
+  border: solid 1px #ccc;
+	width: 60px; 
+	height: 60px; 
+  border-radius: 50%;  
 }
