@@ -150,6 +150,11 @@ hr {
     visibility: hidden;
 }
 h2 {
+				          -webkit-user-select: text;
+        -webkit-touch-callout: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;
 font-family: 'PT Sans', sans-serif;
   font-style: bold;
   color: white;
