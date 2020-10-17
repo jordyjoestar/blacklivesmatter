@@ -192,3 +192,14 @@ font-smooth: 2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+p {
+					          -webkit-user-select: text;
+        -webkit-touch-callout: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;
+  font-style: bold;
+  color: #373fff;
+      text-shadow: 1px 1px #ffffff;
+}
