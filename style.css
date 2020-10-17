@@ -203,3 +203,7 @@ p {
   color: #373fff;
       text-shadow: 1px 1px #ffffff;
 }
+
+.example::selection {
+  text-shadow: none;
+}
