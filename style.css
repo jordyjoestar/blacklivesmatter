@@ -30,7 +30,6 @@
 }
 
 body {
-	cursor: none;
 		position: relative;
 	height: 100%; 
 	width : 100%;  
@@ -54,7 +53,6 @@ body {
 }
 
 r {
-		cursor: none;
   border-radius: 8px;
   font-family: 'Staatliches', cursive;
   font-style: bold;
@@ -65,7 +63,6 @@ r {
 }
 
 v {
-		cursor: none;
 font-family: 'Alatsi', sans-serif;
   font-style: bold;
   font-size: 40px;
@@ -76,7 +73,6 @@ font-family: 'Alatsi', sans-serif;
 }
 
 x {
-		cursor: none;
   font-family: 'Staatliches', cursive;
   font-style: bold;
   font-size: 40px;
@@ -85,7 +81,6 @@ x {
   color: #ffffff;
 }
 l{
-		cursor: none;
     --border-radius: 8px;
   font-family: 'Staatliches', cursive;
   font-style: bold;
@@ -95,7 +90,6 @@ l{
   color: #ffffff;
 }
 f {
-		cursor: none;
   font-family: 'Staatliches', cursive;
   font-style: bold;
   font-size: 40px;
@@ -105,7 +99,6 @@ f {
 }
 
 button {
-		cursor: none;
 	          -webkit-user-select: none;
         -webkit-touch-callout: none;
         -moz-user-select: none;
@@ -151,7 +144,6 @@ button {
 }
 
 h1 {
-		cursor: none;
   font-style: bold;
   color: #ffffff;
       text-shadow: 2px 2px #0F171F;
@@ -162,7 +154,6 @@ hr {
     visibility: hidden;
 }
 h2 {
-		cursor: none;
 				          -webkit-user-select: text;
         -webkit-touch-callout: text;
         -moz-user-select: text;
