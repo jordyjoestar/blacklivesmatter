@@ -204,6 +204,6 @@ p {
       text-shadow: 1px 1px #ffffff;
 }
 
-.example::selection {
+h2::selection {
   text-shadow: none;
 }
