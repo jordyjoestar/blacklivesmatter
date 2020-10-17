@@ -182,6 +182,11 @@ h6 {
       text-shadow: 1px 1px #ffffff;
 }
 .smoothed {
+					          -webkit-user-select: text;
+        -webkit-touch-callout: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        user-select: text;
 	font-smooth: always;
 font-smooth: 2em;
   -webkit-font-smoothing: antialiased;
