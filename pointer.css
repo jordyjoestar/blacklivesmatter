@@ -17,7 +17,7 @@
     width: 0;
     height: 0;
     padding: 15px;
-  border: solid 1px #ccc;
+  border: 2px solid #ccc;
     position: fixed;
     border-radius: 100px;
     z-index: 2;
