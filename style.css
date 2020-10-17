@@ -30,11 +30,11 @@
 }
 
 body {
-			          -webkit-user-select: text;
-        -webkit-touch-callout: text;
-        -moz-user-select: text;
-        -ms-user-select: text;
-        user-select: text;
+			          -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 	    background-image: url('https://i.pinimg.com/originals/50/ff/c8/50ffc8da808e31a16eed77b741afe480.gif');
     background-attachment:fixed;
   background-position: center;
