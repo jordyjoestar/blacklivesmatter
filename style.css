@@ -181,3 +181,9 @@ h6 {
   color: #373fff;
       text-shadow: 1px 1px #ffffff;
 }
+.smoothed {
+	font-smooth: always;
+font-smooth: 2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
