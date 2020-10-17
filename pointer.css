@@ -19,10 +19,9 @@
     padding: 15px;
   border: solid 1px #ccc;
     position: fixed;
-  border-radius: 50%;  
+    border-radius: 100px;
     z-index: 2;
     pointer-events: none;
-    	position: absolute;
 }
 
 html {
